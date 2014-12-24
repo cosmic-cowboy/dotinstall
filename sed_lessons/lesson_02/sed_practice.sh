@@ -1,6 +1,11 @@
 #!bin/sh
 
-
+# 3:address
+# d:command
+# パターンスペース
+# 1:fileから1行読み込んでパターンスペースに格納
+# 2:addressにマッチするか => commandを実行
+# 3:パターンスペースを表示
 echo '3行目を抜く -e '3d''
 sed -e '3d' names.txt
 
